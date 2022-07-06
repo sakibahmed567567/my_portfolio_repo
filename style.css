@@ -11,6 +11,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 .button {
     text-decoration: none;
     background-image: linear-gradient(coral, salmon);
@@ -21,7 +25,7 @@ h1 {
     font-weight: 800;
 }
 
-section {
+.flex-container {
     display: flex;
     padding-left: 7%;
     margin-bottom: 110px;
@@ -58,4 +62,46 @@ section {
     background-image: url(pics/dream-bg.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
+}
+
+.flex-container1 {
+    display: flex;
+    padding-left: .5%;
+    margin-bottom: 150px;
+}
+
+.header {
+    padding-left: 0;
+}
+
+h3 {
+    color: orange;
+}
+
+.experience_area {
+    background-image: url(pics/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    box-shadow: 10px 10px 40px rgb(85, 77, 77);
+}
+
+.border1 {
+    border-left: 7px solid tomato;
+}
+
+.border2 {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
 }
